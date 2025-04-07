@@ -6,7 +6,7 @@ def get_connection():
         port="5432",
         database="inventario",     # Asegúrate de que esta base exista
         user="postgres",           # Tu usuario de PostgreSQL
-        password="tu_contraseña"   # Cámbialo por tu contraseña real
+        password="Luna12"   # Cámbialo por tu contraseña real
     )
 
 def init_db():
