@@ -17,11 +17,11 @@ def init_db():
             sql = archivo.read()
             cursor.execute(sql)
             conn.commit()
-        print("✅ Tablas creadas correctamente.")
+        print(" Tablas creadas correctamente.")
         cursor.close()
         conn.close()
     except Exception as e:
-        print("❌ Error al crear las tablas:", e)
+        print(" Error al crear las tablas:", e)
 
 # Ejecutar si se corre directamente
 if __name__ == "__main__":
